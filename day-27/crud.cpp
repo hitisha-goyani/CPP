@@ -30,6 +30,8 @@ int main(){
         cout<<"press 4 for insert method"<<endl;
         cout<<"press 5 for find array position"<<endl;
         cout<<"press 6 for check array empty or not"<<endl;
+       
+
 
         cout<<"entr your choice:"<<endl;
         cin>>choice;
