@@ -44,8 +44,8 @@ int main()
     // cout<<"HEAD: "<<HEAD->next->next->data<<" address:"<<HEAD->next->next<<endl;
     // cout<<"HEAD: "<<HEAD->next->next->next->data<<" address:"<<HEAD->next->next->next<<endl;
 
-    while(ptr !=0){
-        cout<<"data: "<<ptr->data<<" address: "<<ptr->next<<endl;
+    while(ptr !=NULL){
+        cout<<"data: "<<ptr->data<<" address: "<<ptr<<endl;
         ptr = ptr->next;
     }
 
