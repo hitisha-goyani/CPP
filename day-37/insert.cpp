@@ -11,6 +11,9 @@ void print(int arr[], int n){
 void insert_sort(int arr[], int n){
 
     for(int i=1; i<n; i++){
+
+
+        
         int key = arr[i];
         int j= i-1; // 4, 3, 2, 1-1
 
