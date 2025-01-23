@@ -29,15 +29,12 @@ void selection_sort(int arr[],int n){
 
            }
 
-            }
-
-            
-    int temp = arr[i];
-    arr[i] = min;
-    arr[index] = temp;
+            }      
+            int temp = arr[i];
+            arr[i] = min;
+            arr[index] = temp;
 
         }
-
 
         print(arr, n);
 
